@@ -1,11 +1,11 @@
 ---
 name: animation-micro-interaction-pack
-description: Provides reusable interaction patterns and motion presets that make UI feel polished. Includes hover effects, transitions, entrance animations, gesture feedback, and reduced-motion support. Use when adding "animations", "transitions", "micro-interactions", or "motion design".
+description: Adds animations, transitions, and micro-interactions to UI components. Use when a user wants to make an interface feel more polished or alive — hover effects, entrance animations, loading states, gesture feedback, or any motion that communicates state changes. Also trigger when a UI feels "flat" or "static" even if the user doesn't use the word "animation".
 ---
 
-# Animation & Micro-interaction Pack
+## Mission
 
-Create polished, performant animations and micro-interactions.
+Add motion that serves communication, not decoration — every animation should tell the user something: what changed, what's loading, what's interactive, what succeeded or failed. Default to subtle and fast. When in doubt, less is more. Always implement `prefers-reduced-motion` support — motion that can't be disabled is an accessibility failure.
 
 ## Animation Patterns
 
